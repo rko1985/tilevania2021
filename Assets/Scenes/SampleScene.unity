@@ -8109,6 +8109,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 720889250, guid: 4eec57ad05e2fa849a5926dab6d82ba0, type: 3}
+      propertyPath: m_GravityScale
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 720889250, guid: 4eec57ad05e2fa849a5926dab6d82ba0, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5416031594644536079, guid: 4eec57ad05e2fa849a5926dab6d82ba0, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -8156,6 +8164,10 @@ PrefabInstance:
     - target: {fileID: 5416031594644536112, guid: 4eec57ad05e2fa849a5926dab6d82ba0, type: 3}
       propertyPath: m_Name
       value: Ginger (Player)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574040121895361060, guid: 4eec57ad05e2fa849a5926dab6d82ba0, type: 3}
+      propertyPath: jumpSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8355963193662248588, guid: 4eec57ad05e2fa849a5926dab6d82ba0, type: 3}
       propertyPath: m_Enabled
