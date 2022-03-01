@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 720889251}
   - component: {fileID: 8355963193662248588}
   - component: {fileID: 6574040121895361060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ginger (Player)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1484514337
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 1857188551261513057, guid: a09edbfe1761d8c4383203278652b3b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,11 +121,11 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 6
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &720889251
 CapsuleCollider2D:
@@ -136,7 +136,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 5416031594644536112}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a9f5928cd83fdc1488055da0808966a2, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -185,3 +185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3957bf9ecdc4bc149998213ba8a7ab98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runSpeed: 7
+  jumpSpeed: 20
+  climbSpeed: 5
