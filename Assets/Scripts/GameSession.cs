@@ -52,12 +52,6 @@ public class GameSession : MonoBehaviour
         scoreText.text = score.ToString();
     }
 
-    void ResetGameSession()
-    {
-        SceneManager.LoadScene(0);
-        Destroy(gameObject);
-    }
-
     void TakeLife()
     {
         playerLives--;
@@ -65,4 +59,12 @@ public class GameSession : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex);
         livesText.text = playerLives.ToString();
     }
+
+    void ResetGameSession()
+    {
+        FindObjectOfType<ScenePersist>().ResetScenePersist();
+        SceneManager.LoadScene(0);
+        Destroy(gameObject);
+    }
+
 }
